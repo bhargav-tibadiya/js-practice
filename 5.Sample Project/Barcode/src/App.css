@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'satoshi';
+  font-size: 28px;
+
+  height: 100vh;
+  background-color: bisque;
+}
+
+.title{
+
+}
+
+.scan{
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+table, th, td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
